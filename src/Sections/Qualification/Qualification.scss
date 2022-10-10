@@ -1,0 +1,6 @@
+@import '../../mixins';
+.Qualification {
+  .qual_cont {
+    @include qual_cont;
+  }
+}
