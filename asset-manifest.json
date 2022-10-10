@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.1c2e383e.css",
+    "main.js": "/Portfolio/static/js/main.8856ca6e.js",
+    "static/media/Gericht.png": "/Portfolio/static/media/Gericht.11915f1316a0fd24000c.png",
+    "static/media/Kasper.png": "/Portfolio/static/media/Kasper.f0278e83d652bc40bed3.png",
+    "static/media/Dracarys.png": "/Portfolio/static/media/Dracarys.c8e12b937fa7c70ffa78.png",
+    "static/media/leon.png": "/Portfolio/static/media/leon.875b7e81a1d47350c7c4.png",
+    "static/media/Galaxy.png": "/Portfolio/static/media/Galaxy.c2d01eaf9156f9c8f51f.png",
+    "static/media/Special Design.png": "/Portfolio/static/media/Special Design.10fc64868b69fac0e3b7.png",
+    "static/media/Psycho.png": "/Portfolio/static/media/Psycho.d749196657bec6791462.png",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.e445ae46fd6f52e78596.jpg",
+    "static/media/Sahem.png": "/Portfolio/static/media/Sahem.a5f19d68c78a88836f75.png",
+    "static/media/contact_img.png": "/Portfolio/static/media/contact_img.48b17cffa926ad82e9c4.png",
+    "static/media/Weather App.png": "/Portfolio/static/media/Weather App.49eb3064d06705160faf.png",
+    "static/media/Todolist App.png": "/Portfolio/static/media/Todolist App.4b2939676030117b00dc.png",
+    "static/media/Courselist App.png": "/Portfolio/static/media/Courselist App.8bb2d65a4e38065ddf78.png",
+    "index.html": "/Portfolio/index.html",
+    "main.1c2e383e.css.map": "/Portfolio/static/css/main.1c2e383e.css.map",
+    "main.8856ca6e.js.map": "/Portfolio/static/js/main.8856ca6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c2e383e.css",
+    "static/js/main.8856ca6e.js"
+  ]
+}
