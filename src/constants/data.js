@@ -63,9 +63,10 @@ const projects = [
     "website": "https://zaki164.github.io/Dracarys"
   },
   {
-    "name": "Galaxy",
-    "img": images.project3,
-    "github": "https://github.com/zaki164/Galaxy",
+    "name": "Special Design",
+    "img": images.project9,
+    "github": "https://github.com/zaki164/Special-Design",
+    "website": "https://zaki164.github.io/Special-Design"
   },
   {
     "name": "Gericht",
@@ -74,22 +75,21 @@ const projects = [
     "website": "https://zaki164.github.io/Gericht"
   },
   {
-    "name": "Special Design",
-    "img": images.project9,
-    "github": "https://github.com/zaki164/Special-Design",
-    "website": "https://zaki164.github.io/Special-Design"
-  },
-  {
-    "name": "Kasper",
-    "img": images.project5,
-    "github": "https://github.com/zaki164/Kasper",
-    "website": "https://zaki164.github.io/Kasper"
+    "name": "Galaxy",
+    "img": images.project3,
+    "github": "https://github.com/zaki164/Galaxy",
   },
   {
     "name": "Psycho",
     "img": images.project7,
     "github": "https://github.com/zaki164/Psycho",
     "website": "https://zaki164.github.io/Psycho"
+  },
+  {
+    "name": "Kasper",
+    "img": images.project5,
+    "github": "https://github.com/zaki164/Kasper",
+    "website": "https://zaki164.github.io/Kasper"
   },
   {
     "name": "leon",
