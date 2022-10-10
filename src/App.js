@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'aos/dist/aos.css';
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar, Footer } from "./components";
 import { About, Contact, Home, Projects } from "./Pages";
 import './App.css';
@@ -36,7 +36,7 @@ const App = () => {
       </div>
     </div> :
     (
-      <BrowserRouter>
+      <Router>
         <Navbar lightMode={light} />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -45,7 +45,7 @@ const App = () => {
           <Route exact path="/About" element={<About />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </Router>
     );
 };
 
