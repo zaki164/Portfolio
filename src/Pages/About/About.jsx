@@ -33,7 +33,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>CV:</p>
-              <a href="https://drive.google.com/drive/my-drive?lfhs=2" className='view custom_button' target="_blank" rel="noreferrer">View</a>
+              <a href="https://drive.google.com/file/d/1TJzEFb8vOIU4lgowxf_HLWd3sZFlMc_t/view?usp=sharing" className='view custom_button' target="_blank" rel="noreferrer">View</a>
             </Col>
             <Col xs={12} md={6} className="col_info mb-0">
               <p>Phone:</p>
@@ -46,8 +46,8 @@ const About = () => {
           </Row>
         </article>
         <article className="About_passion" data-aos={"fade-up"}>
-          <p>I'm looking forward to building a long-term relationship with my clients. Beacuae The programming is my Passion , I love Coding so much.</p>
-          <p><FontAwesomeIcon icon={faHandPointRight} /> And Finally , My favourie Sport is Football</p>
+          <p>I'm looking forward to building a long-term relationship with my clients.And The programming is my Passion , I love Coding so much.</p>
+          <p><FontAwesomeIcon icon={faHandPointRight} /> And Finally , My favourite Sport is Football</p>
         </article>
       </Container>
     </section>

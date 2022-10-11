@@ -42,7 +42,7 @@ const Footer = () => (
         </a>
       </li>
     </ul>
-    <p className='made'>Made By <span>Zaki Mohsen</span></p>
+    <p className='made'>Powered By <span>Zaki Mohsen</span></p>
   </section>
 );
 
