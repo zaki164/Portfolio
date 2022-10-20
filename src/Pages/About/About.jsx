@@ -46,7 +46,7 @@ const About = () => {
           </Row>
         </article>
         <article className="About_passion" data-aos={"fade-up"}>
-          <p>I'm looking forward to building a long-term relationship with my clients.And The programming is my Passion , I love Coding so much.</p>
+          <p>I'm looking forward to building a long-term relationship with my clients. The programming is my Passion , I love to learn something new everyday</p>
           <p><FontAwesomeIcon icon={faHandPointRight} /> And Finally , My favourite Sport is Football</p>
         </article>
       </Container>
