@@ -33,7 +33,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>CV:</p>
-              <a href="https://drive.google.com/file/d/1TJzEFb8vOIU4lgowxf_HLWd3sZFlMc_t/view?usp=sharing" className='view custom_button' target="_blank" rel="noreferrer">View</a>
+              <a href="https://drive.google.com/file/d/10ReLm0LHJpqtmNURFZlEK5dVawfrRhWj/view?usp=sharing" className='view custom_button' target="_blank" rel="noreferrer">View</a>
             </Col>
             <Col xs={12} md={6} className="col_info mb-0">
               <p>Phone:</p>
