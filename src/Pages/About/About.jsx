@@ -25,7 +25,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>Age:</p>
-              <p className='fontalt mt-1'>23</p>
+              <p className='fontalt mt-1'>24</p>
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>Country:</p>
@@ -33,7 +33,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>CV:</p>
-              <a href="https://drive.google.com/file/d/10ReLm0LHJpqtmNURFZlEK5dVawfrRhWj/view?usp=sharing" className='view custom_button' target="_blank" rel="noreferrer">View</a>
+              <a href="https://drive.google.com/file/d/1iJfg9YyKMdY9bcXWBtCPGDE4hH88kgvv/view?usp=sharing" className='view custom_button' target="_blank" rel="noreferrer">View</a>
             </Col>
             <Col xs={12} md={6} className="col_info mb-0">
               <p>Phone:</p>
@@ -46,8 +46,8 @@ const About = () => {
           </Row>
         </article>
         <article className="About_passion" data-aos={"fade-up"}>
-          <p>I'm looking forward to building a long-term relationship with my clients. The programming is my Passion , I love to learn something new everyday</p>
-          <p><FontAwesomeIcon icon={faHandPointRight} /> And Finally , My favourite Sport is Football</p>
+          <p>Coding is my passion , I love to learn something new everyday.</p>
+          <p><FontAwesomeIcon icon={faHandPointRight} /> And Finally , My favourite Sport is Football.</p>
         </article>
       </Container>
     </section>

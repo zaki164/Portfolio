@@ -104,27 +104,27 @@ const projects = [
     "website": "https://zaki164.github.io/Sahem",
     "small": "small",
   },
-  {
-    "name": "Weather App",
-    "img": images.project11,
-    "github": "https://github.com/zaki164/Weather",
-    "website": "https://zaki164.github.io/Weather",
-    "small": "small",
-  },
-  {
-    "name": "Courselist App",
-    "img": images.project1,
-    "github": "https://github.com/zaki164/Courselist",
-    "website": "https://zaki164.github.io/Courselist",
-    "small": "small",
-  },
-  {
-    "name": "Todolist App",
-    "img": images.project10,
-    "github": "https://github.com/zaki164/Todolist",
-    "website": "https://zaki164.github.io/Todolist",
-    "small": "small",
-  },
+  // {
+  //   "name": "Weather App",
+  //   "img": images.project11,
+  //   "github": "https://github.com/zaki164/Weather",
+  //   "website": "https://zaki164.github.io/Weather",
+  //   "small": "small",
+  // },
+  // {
+  //   "name": "Courselist App",
+  //   "img": images.project1,
+  //   "github": "https://github.com/zaki164/Courselist",
+  //   "website": "https://zaki164.github.io/Courselist",
+  //   "small": "small",
+  // },
+  // {
+  //   "name": "Todolist App",
+  //   "img": images.project10,
+  //   "github": "https://github.com/zaki164/Todolist",
+  //   "website": "https://zaki164.github.io/Todolist",
+  //   "small": "small",
+  // },
 ]
 
 export default { Skills, projects };
