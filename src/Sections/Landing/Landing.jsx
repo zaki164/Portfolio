@@ -28,7 +28,7 @@ const Landing = () => {
           </svg>
         </div>
         <div className="profile_name">Hello, I'm <span>Zaki Mohsen</span></div>
-        <div className="profile_job">I'm a <span>Front-end Developer</span></div>
+        <div className="profile_job">I'm a <span>Front-End Developer</span></div>
       </Container>
       <FontAwesomeIcon icon={faAnglesDown} className="angledown" ref={angledown}  onClick={handleArrow}/>
     </section>
