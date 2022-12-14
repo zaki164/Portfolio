@@ -1,5 +1,4 @@
 import { faBootstrap, faCss3Alt, faGithub, faGulp, faHtml5, faReact, faSass, faSquareJs } from "@fortawesome/free-brands-svg-icons";
-// import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 import { FaGitAlt } from 'react-icons/fa';
 import { SiNextdotjs, SiPug, SiRedux, SiTypescript } from 'react-icons/si';
 import { images } from './index';
