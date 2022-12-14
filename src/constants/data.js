@@ -1,8 +1,9 @@
 import { faBootstrap, faCss3Alt, faGithub, faGulp, faHtml5, faReact, faSass, faSquareJs } from "@fortawesome/free-brands-svg-icons";
-import { faTerminal } from "@fortawesome/free-solid-svg-icons";
+// import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 import { FaGitAlt } from 'react-icons/fa';
-import { SiPug, SiRedux } from 'react-icons/si';
+import { SiNextdotjs, SiPug, SiRedux, SiTypescript } from 'react-icons/si';
 import { images } from './index';
+
 
 const Skills = [
   {
@@ -14,7 +15,7 @@ const Skills = [
     "icon": faCss3Alt
   },
   {
-    "name": "Js",
+    "name": "JavaScript",
     "icon": faSquareJs
   },
   {
@@ -34,10 +35,6 @@ const Skills = [
     "icon": faGithub
   },
   {
-    "name": "CMD",
-    "icon": faTerminal
-  },
-  {
     "name": "Pug",
     "iconAlt": <SiPug />
   },
@@ -52,6 +49,14 @@ const Skills = [
   {
     "name": "Redux",
     "iconAlt": <SiRedux />
+  },
+  {
+    "name": "Next",
+    "iconAlt": <SiNextdotjs />
+  },
+  {
+    "name": "TypeScript",
+    "iconAlt": <SiTypescript />
   },
 ];
 
