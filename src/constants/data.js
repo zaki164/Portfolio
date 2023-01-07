@@ -137,4 +137,9 @@ const projects = [
   // },
 ]
 
-export default { Skills, projects };
+const data = { 
+  Skills,
+  projects 
+}
+
+export default data;
