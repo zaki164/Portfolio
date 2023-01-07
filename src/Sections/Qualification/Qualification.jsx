@@ -2,7 +2,7 @@ import { faHandPointRight } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
-import './Qualification.css';
+import './Qualification.scss';
 
 import AOS from 'aos';
 AOS.init({
