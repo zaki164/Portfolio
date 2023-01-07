@@ -9,8 +9,8 @@ import { useState } from "react";
 import { useEffect, useLayoutEffect } from "react";
 
 const App = () => {
+  const [loading, setloading] = useState(true);
   const [light, setlight] = useState(false);
-  const [loading, setloading] = useState(true)
   const lightlocal = localStorage.getItem("Light Mode");
   useLayoutEffect(() => {
     if (lightlocal) {
