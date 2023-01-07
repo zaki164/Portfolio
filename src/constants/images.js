@@ -11,6 +11,7 @@ import project8 from '../assets/Projects/Sahem.png';
 import project9 from '../assets/Projects/Special Design.png';
 import project10 from '../assets/Projects/Todolist App.png';
 import project11 from '../assets/Projects/Weather App.png';
+import project12 from '../assets/Projects/Atsky.png';
 
 export default {
   profile,
@@ -25,5 +26,6 @@ export default {
   project8,
   project9,
   project10,
-  project11
+  project11,
+  project12,
 }

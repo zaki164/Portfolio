@@ -61,6 +61,12 @@ const Skills = [
 
 const projects = [
   {
+    "name": "Atsky",
+    "img": images.project12,
+    "github": "https://github.com/zaki164/Atsky",
+    "website": "https://zaki164.github.io/Atsky"
+  },
+  {
     "name": "Dracarys",
     "img": images.project2,
     "github": "https://github.com/zaki164/Dracarys",
