@@ -2,7 +2,7 @@
 import { faFacebookF, faFacebookMessenger, faGithub, faInstagram, faLinkedinIn, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faM } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './Footer.css';
+import './Footer.scss';
 
 const Footer = () => (
   <section className='footer'>
