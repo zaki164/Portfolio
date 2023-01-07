@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container } from 'react-bootstrap';
 import { data } from '../../constants';
-import './Skills.css';
+import './Skills.scss';
 
 import AOS from 'aos';
 AOS.init({
