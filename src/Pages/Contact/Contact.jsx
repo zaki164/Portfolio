@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { images } from '../../constants';
-import './Contact.css';
+import './Contact.scss';
 
 const Contact = () => {
   const [formInfo, setformInfo] = useState({
