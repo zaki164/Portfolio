@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar, Footer } from "./components";
 import { About, Contact, Home, Projects } from "./Pages";
-import './App.css';
+import './App.scss';
 import { useState } from "react";
 import { useEffect, useLayoutEffect } from "react";
 
@@ -13,7 +13,6 @@ const App = () => {
   const [light, setlight] = useState(false);
   const [loading, setloading] = useState(true)
   const lightlocal = localStorage.getItem("Light Mode");
-  // localStorage.clear();
   useLayoutEffect(() => {
     if (lightlocal) {
       if (lightlocal === "true") {
