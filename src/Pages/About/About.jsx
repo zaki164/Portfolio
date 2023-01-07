@@ -1,7 +1,7 @@
 import { faHandPointRight } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Col, Container, Row } from 'react-bootstrap';
-import './About.css';
+import './About.scss';
 
 import AOS from 'aos';
 AOS.init({
