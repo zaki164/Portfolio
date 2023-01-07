@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect, useRef, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import './Navbar.css';
+import './Navbar.scss';
 
 const Navbar = ({lightMode}) => {
   const [light, setlight] = useState(lightMode);
