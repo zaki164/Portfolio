@@ -1,4 +1,4 @@
-import './Projects.css';
+import './Projects.scss';
 import { data } from '../../constants';
 import { Col, Container, Row } from 'react-bootstrap';
 
