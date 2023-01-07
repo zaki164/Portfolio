@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
 import 'aos/dist/aos.css';
 
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
