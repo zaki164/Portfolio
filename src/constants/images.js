@@ -13,7 +13,7 @@ import project10 from '../assets/Projects/Todolist App.png';
 import project11 from '../assets/Projects/Weather App.png';
 import project12 from '../assets/Projects/Atsky.png';
 
-export default {
+const images = {
   profile,
   contact,
   project1,
@@ -29,3 +29,5 @@ export default {
   project11,
   project12,
 }
+
+export default images;
