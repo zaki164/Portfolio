@@ -2,7 +2,7 @@ import { images } from '../../constants';
 import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAnglesDown } from '@fortawesome/free-solid-svg-icons';
-import './Landing.css';
+import './Landing.scss';
 import { useRef } from 'react';
 
 const Landing = () => {
