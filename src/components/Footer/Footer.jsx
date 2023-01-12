@@ -37,7 +37,8 @@ const Footer = () => (
         </a>
       </li>
       <li>
-        <a href='https://wa.me/+201024336192' className='WhatsApp' target="_blank" rel="noreferrer" aria-label="WhatsApp">
+      {/* https://wa.me/+201010386649 */}
+        <a href='https://api.whatsapp.com/send?phone=+201010386649&text=Hi' className='WhatsApp' target="_blank" rel="noreferrer" aria-label="WhatsApp">
         <FontAwesomeIcon icon={faWhatsapp} />
         </a>
       </li>
