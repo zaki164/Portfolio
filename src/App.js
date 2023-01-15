@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar, Footer } from "./components";
 import { About, Contact, Home, Projects } from "./Pages";
-import './App.scss';
+import './sass/App.scss';
 import { useState } from "react";
 import { useEffect, useLayoutEffect } from "react";
 

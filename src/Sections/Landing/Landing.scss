@@ -1,4 +1,4 @@
-@import '../../mixins';
+@import '../../sass/mixins';
 .landing {
   height: calc(100vh - 83px);
   @include media(sm) {
