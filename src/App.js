@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'aos/dist/aos.css';
-
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Navbar, Footer } from "./components";
 import { About, Contact, Home, Projects } from "./Pages";
