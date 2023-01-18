@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useState } from "react";
 import Router from "../Router/Router";
 import { Navbar, Footer } from "../components";
-import "./Layout.scss";
+
 const Layout = () => {
   const [loading, setloading] = useState(true);
   const [light, setlight] = useState(false);
