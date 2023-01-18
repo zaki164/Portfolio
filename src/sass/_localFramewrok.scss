@@ -53,18 +53,15 @@
 .fontalt {
   font-family: var(--fontAlt);
 }
+.section_padding {
+  padding: 60px 0;
+}
 .loader_cont {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
   width: 100%;
-  height: calc(100% + 83px);
-  top: -83px;
-  @include media(xs) {
-    height: calc(100% + 138px);
-    top: -138px;
-  }
+  height: 100vh;
   .loader {
     position: relative;
     width: 200px;
@@ -72,8 +69,11 @@
     border-radius: 50%;
     background: linear-gradient(#B25068, #c8a25a, #534666);
     animation: rotateAnime infinite linear .7s;
+    top: -10%;
     @include media(xs) {
-      top: 10%;
+      top: -15%;
+      width: 150px;
+      height: 150px;
     }
     span {
       position: absolute;
@@ -103,7 +103,4 @@
       z-index: 2;
     }
   }
-}
-.section_padding {
-  padding: 60px 0;
 }
