@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a3cd8749.css",
+    "main.css": "/Portfolio/static/css/main.885e5dac.css",
     "main.js": "/Portfolio/static/js/main.27f83ec2.js",
     "static/css/679.42c75e4b.chunk.css": "/Portfolio/static/css/679.42c75e4b.chunk.css",
     "static/js/679.755835d8.chunk.js": "/Portfolio/static/js/679.755835d8.chunk.js",
@@ -28,7 +28,7 @@
     "static/media/Todolist App.png": "/Portfolio/static/media/Todolist App.4b2939676030117b00dc.png",
     "static/media/Courselist App.png": "/Portfolio/static/media/Courselist App.8bb2d65a4e38065ddf78.png",
     "index.html": "/Portfolio/index.html",
-    "main.a3cd8749.css.map": "/Portfolio/static/css/main.a3cd8749.css.map",
+    "main.885e5dac.css.map": "/Portfolio/static/css/main.885e5dac.css.map",
     "main.27f83ec2.js.map": "/Portfolio/static/js/main.27f83ec2.js.map",
     "679.42c75e4b.chunk.css.map": "/Portfolio/static/css/679.42c75e4b.chunk.css.map",
     "679.755835d8.chunk.js.map": "/Portfolio/static/js/679.755835d8.chunk.js.map",
@@ -43,7 +43,7 @@
     "508.8654c75b.chunk.js.map": "/Portfolio/static/js/508.8654c75b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3cd8749.css",
+    "static/css/main.885e5dac.css",
     "static/js/main.27f83ec2.js"
   ]
 }
