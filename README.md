@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+![Zaki's Portfolio](https://github.com/zaki164/Portfolio/assets/92805900/77bf6809-0aad-440e-81b9-24d63a9d6cef)
+# Getting Started wit
+h Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
