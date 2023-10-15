@@ -9,7 +9,14 @@ import {
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
 import { FaGitAlt } from "react-icons/fa";
-import { SiNextdotjs, SiPug, SiRedux, SiTypescript } from "react-icons/si";
+import {
+  SiNextdotjs,
+  SiPug,
+  SiRedux,
+  SiTypescript,
+  SiTailwindcss,
+  SiMaterialui,
+} from "react-icons/si";
 import { images } from "./index";
 
 const Skills = [
@@ -50,7 +57,7 @@ const Skills = [
     icon: faGulp,
   },
   {
-    name: "React",
+    name: "React.js",
     icon: faReact,
   },
   {
@@ -58,12 +65,20 @@ const Skills = [
     iconAlt: <SiRedux />,
   },
   {
-    name: "Next",
+    name: "Next.js",
     iconAlt: <SiNextdotjs />,
   },
   {
     name: "TypeScript",
     iconAlt: <SiTypescript />,
+  },
+  {
+    name: "Tailwind",
+    iconAlt: <SiTailwindcss />,
+  },
+  {
+    name: "MUI",
+    iconAlt: <SiMaterialui />,
   },
 ];
 
