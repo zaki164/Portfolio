@@ -1,4 +1,10 @@
-import { Landing, Qualification, Skills, Training } from "../../Sections";
+import {
+  Landing,
+  Qualification,
+  Skills,
+  Training,
+  ProfessionalExperience,
+} from "../../Sections";
 
 const Home = () => {
   return (
@@ -7,6 +13,7 @@ const Home = () => {
       <Qualification />
       <Training />
       <Skills />
+      <ProfessionalExperience />
     </>
   );
 };

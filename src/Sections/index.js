@@ -1,11 +1,7 @@
-import Landing from './Landing/Landing';
-import Skills from './Skills/Skills';
-import Qualification from './Qualification/Qualification';
-import Training from './Training/Training';
+import Landing from "./Landing/Landing";
+import Skills from "./Skills/Skills";
+import Qualification from "./Qualification/Qualification";
+import Training from "./Training/Training";
+import ProfessionalExperience from "./ProfessionalExperience/ProfessionalExperience";
 
-export {
-  Landing,
-  Skills,
-  Qualification,
-  Training,
-};
+export { Landing, Skills, Qualification, Training, ProfessionalExperience };
