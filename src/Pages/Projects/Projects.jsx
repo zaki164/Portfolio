@@ -33,15 +33,17 @@ const Projects = () => {
                   onClick={() => window.open(ele.website || ele.github)}
                 >
                   <figcaption className="project_name">{ele.name}</figcaption>
-                  <span
-                    onClick={() => window.open(ele.github)}
-                    className="github"
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Github"
-                  >
-                    <FontAwesomeIcon icon={faGithub} />
-                  </span>
+                  {ele?.github && (
+                    <span
+                      onClick={() => window.open(ele.github)}
+                      className="github"
+                      target="_blank"
+                      rel="noreferrer"
+                      aria-label="Github"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </span>
+                  )}
                   <div className="image_holder">
                     <LazyLoadImage src={ele.img} alt={ele.name} effect="blur" />
                   </div>

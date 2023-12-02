@@ -84,6 +84,12 @@ const Skills = [
 
 const projects = [
   {
+    name: "ITAD VIP",
+    img: images.project16,
+    // github: "https://github.com/ITAD-vip-company/ITAD-wesbite",
+    website: "https://itadvip.com/",
+  },
+  {
     name: "Nike",
     img: images.project13,
     github: "https://github.com/zaki164/Nike",
@@ -92,13 +98,13 @@ const projects = [
   {
     name: "Scene Cinemas",
     img: images.project14,
-    github: "https://github.com/C64ae/cfc_online",
+    // github: "https://github.com/C64ae/cfc_online",
     website: "https://scenecinemas.com",
   },
   {
     name: "NXT",
     img: images.project15,
-    github: "https://github.com/C64ae/Nxt-Frontend",
+    // github: "https://github.com/C64ae/Nxt-Frontend",
     website: "https://projectnxt.app/",
   },
   {

@@ -15,6 +15,7 @@ import project12 from "../assets/Projects/Atsky.png";
 import project13 from "../assets/Projects/Nike.png";
 import project14 from "../assets/Projects/Scene Cinemas.png";
 import project15 from "../assets/Projects/Project NXT.png";
+import project16 from "../assets/Projects/itad.png";
 
 const images = {
   profile,
@@ -34,6 +35,7 @@ const images = {
   project13,
   project14,
   project15,
+  project16,
 };
 
 export default images;
