@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.885e5dac.css",
-    "main.js": "/Portfolio/static/js/main.c51a0e84.js",
+    "main.css": "/Portfolio/static/css/main.3aa8d24b.css",
+    "main.js": "/Portfolio/static/js/main.a1d26469.js",
     "static/css/661.84d4dfac.chunk.css": "/Portfolio/static/css/661.84d4dfac.chunk.css",
     "static/js/661.b31826fb.chunk.js": "/Portfolio/static/js/661.b31826fb.chunk.js",
     "static/css/910.89a78639.chunk.css": "/Portfolio/static/css/910.89a78639.chunk.css",
@@ -32,8 +32,8 @@
     "static/media/Todolist App.png": "/Portfolio/static/media/Todolist App.4b2939676030117b00dc.png",
     "static/media/Courselist App.png": "/Portfolio/static/media/Courselist App.8bb2d65a4e38065ddf78.png",
     "index.html": "/Portfolio/index.html",
-    "main.885e5dac.css.map": "/Portfolio/static/css/main.885e5dac.css.map",
-    "main.c51a0e84.js.map": "/Portfolio/static/js/main.c51a0e84.js.map",
+    "main.3aa8d24b.css.map": "/Portfolio/static/css/main.3aa8d24b.css.map",
+    "main.a1d26469.js.map": "/Portfolio/static/js/main.a1d26469.js.map",
     "661.84d4dfac.chunk.css.map": "/Portfolio/static/css/661.84d4dfac.chunk.css.map",
     "661.b31826fb.chunk.js.map": "/Portfolio/static/js/661.b31826fb.chunk.js.map",
     "910.89a78639.chunk.css.map": "/Portfolio/static/css/910.89a78639.chunk.css.map",
@@ -47,7 +47,7 @@
     "508.8654c75b.chunk.js.map": "/Portfolio/static/js/508.8654c75b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.885e5dac.css",
-    "static/js/main.c51a0e84.js"
+    "static/css/main.3aa8d24b.css",
+    "static/js/main.a1d26469.js"
   ]
 }
