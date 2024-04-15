@@ -10,29 +10,30 @@ const Layout = () => {
     if (lightlocal) {
       if (lightlocal === "true") {
         setlight(true);
-        document.body.classList.add('light');
+        document.body.classList.add("light");
       }
     }
-  }, [lightlocal])
+  }, [lightlocal]);
   useEffect(() => {
     setTimeout(() => {
       setloading(false);
-    }, 1500)
-  })
-  return loading ?
+    }, 1500);
+  });
+  return loading ? (
     <div className="loader_cont">
-      <div className="loader">
+      <div className="loader_sub">
         <span></span>
         <span></span>
         <span></span>
       </div>
-    </div> : (
-      <>
-        <Navbar lightMode={light} />
-        <Router />
-        <Footer />
-      </>
-    )
-}
+    </div>
+  ) : (
+    <>
+      <Navbar lightMode={light} />
+      <Router />
+      <Footer />
+    </>
+  );
+};
 
-export default Layout
+export default Layout;
