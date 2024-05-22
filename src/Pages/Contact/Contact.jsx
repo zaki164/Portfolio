@@ -1,30 +1,38 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import { images } from '../../constants';
-import './Contact.scss';
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import { images } from "../../constants";
+import "./Contact.scss";
 
 const Contact = () => {
   const [formInfo, setformInfo] = useState({
     name: "",
     email: "",
     subject: "",
-    message: ""
-  })
+    message: "",
+  });
   const handleInput = (e) => {
     setformInfo({
       ...formInfo,
-      [e.target.name]: e.target.value
-    })
-  }
+      [e.target.name]: e.target.value,
+    });
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
-    window.open(`mailto:zakimohsen14@gmail.com${formInfo.name || formInfo.email || formInfo.message ? `?body=${formInfo.name + `,` + formInfo.email + `,` + formInfo.message}`: ``}${formInfo.subject ? `&subject=${formInfo.subject}`: ``}`)
-  }
+    window.open(
+      `mailto:zakimohsen14@gmail.com${
+        formInfo.name || formInfo.email || formInfo.message
+          ? `?body=${
+              formInfo.name + `,` + formInfo.email + `,` + formInfo.message
+            }`
+          : ``
+      }${formInfo.subject ? `&subject=${formInfo.subject}` : ``}`
+    );
+  };
   return (
-    <section className='Contact section_padding'>
-      <h2 className='main_heading'>Get In Touch</h2>
+    <section className="Contact section_padding">
+      <h2 className="main_heading">Get In Touch</h2>
       <Container>
         <Row data-aos={"fade-up"}>
           <Col xs={12} lg={6} className="mb-5 mb-lg-0">
@@ -32,7 +40,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faPhone} />
               <div className="number">
                 <h3>Call Me</h3>
-                <a href='tel:01010386649'>+201010386649</a>
+                <a href="tel:01010386649">+201010386649</a>
               </div>
             </div>
           </Col>
@@ -41,30 +49,62 @@ const Contact = () => {
               <FontAwesomeIcon icon={faEnvelope} />
               <div className="number">
                 <h3>Email Me</h3>
-                <a href='mailto:zakimohsen14@gmail.com'>zakimohsen14@gmail.com</a>
+                <a href="mailto:zakimohsen14@gmail.com">
+                  zakimohsen14@gmail.com
+                </a>
               </div>
             </div>
           </Col>
         </Row>
-        <Row className='rowForm'>
+        <Row className="rowForm">
           <Col xs={12} lg={6} data-aos={"fade-up"}>
-            <img src={images.contact} alt="Contact" />
+            <div className="image_container">
+              <img
+                src={images.contact2}
+                alt="Contact"
+                // style={{ width: "350px" }}
+              />
+            </div>
           </Col>
           <Col xs={12} lg={6} data-aos={"fade-up"}>
-            <div className='Contact_form'>
+            <div className="Contact_form">
               <form action="" onSubmit={handleSubmit} autoComplete="off">
-                <input type="text" placeholder='Name' name='name' required onChange={handleInput} />
-                <input type="email" placeholder='Email' name='email'  onChange={handleInput}/>
-                <input type="text" placeholder='Subject' name='subject'  onChange={handleInput}/>
-                <textarea cols="30" rows="7" placeholder='Message' name="message" onChange={handleInput}></textarea>
-                <button type='submit' className='custom_button'>Send</button>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  name="name"
+                  required
+                  onChange={handleInput}
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  onChange={handleInput}
+                />
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  name="subject"
+                  onChange={handleInput}
+                />
+                <textarea
+                  cols="30"
+                  rows="7"
+                  placeholder="Message"
+                  name="message"
+                  onChange={handleInput}
+                ></textarea>
+                <button type="submit" className="custom_button">
+                  Send
+                </button>
               </form>
             </div>
           </Col>
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

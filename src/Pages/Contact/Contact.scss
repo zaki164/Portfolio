@@ -1,4 +1,4 @@
-@import '../../sass/mixins';
+@import "../../sass/mixins";
 .Contact {
   .Contact_col {
     @include section_content_style;
@@ -48,11 +48,21 @@
     @include media(md) {
       margin-top: 0;
     }
-    img {
-      width: 100%;
-      height: 100%
+    .image_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 80%;
+        @include media(md) {
+          width: 60%;
+        }
+      }
     }
     .Contact_form {
+      @include media(md) {
+        margin-top: 20px;
+      }
       text-align: center;
       form {
         input,

@@ -2,7 +2,7 @@ import {
   Landing,
   Qualification,
   Skills,
-  Training,
+  // Training,
   ProfessionalExperience,
 } from "../../Sections";
 
@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <Landing />
       <Qualification />
-      <Training />
+      {/* <Training /> */}
       <Skills />
       <ProfessionalExperience />
     </>

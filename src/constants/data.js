@@ -84,10 +84,20 @@ const Skills = [
 
 const projects = [
   {
+    name: "Mandobk",
+    img: images.project18,
+    website: "https://mandobk.com.sa",
+  },
+  {
+    name: "Pickappo",
+    img: images.project17,
+    website: "https://pickappo.com",
+  },
+  {
     name: "ITAD VIP",
     img: images.project16,
     // github: "https://github.com/ITAD-vip-company/ITAD-wesbite",
-    website: "https://itadvip.com/",
+    website: "https://itadvip.com",
   },
   {
     name: "Nike",

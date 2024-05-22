@@ -1,5 +1,6 @@
 import profile from "../assets/profile.jpg";
 import contact from "../assets/contact_img.png";
+import contact2 from "../assets/contact.png";
 import project1 from "../assets/Projects/Courselist App.png";
 import project2 from "../assets/Projects/Dracarys.png";
 import project3 from "../assets/Projects/Galaxy.png";
@@ -16,10 +17,13 @@ import project13 from "../assets/Projects/Nike.png";
 import project14 from "../assets/Projects/Scene Cinemas.png";
 import project15 from "../assets/Projects/Project NXT.png";
 import project16 from "../assets/Projects/itad.png";
+import project17 from "../assets/Projects/pickappo.png";
+import project18 from "../assets/Projects/mandobk.png";
 
 const images = {
   profile,
   contact,
+  contact2,
   project1,
   project2,
   project3,
@@ -36,6 +40,8 @@ const images = {
   project14,
   project15,
   project16,
+  project17,
+  project18,
 };
 
 export default images;
