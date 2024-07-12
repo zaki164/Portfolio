@@ -84,6 +84,11 @@ const Skills = [
 
 const projects = [
   {
+    name: "Help Dot",
+    img: images.project19,
+    website: "help-dot.vercel.app",
+  },
+  {
     name: "Mandobk",
     img: images.project18,
     website: "https://mandobk.com.sa",
