@@ -20,6 +20,7 @@ import project16 from "../assets/Projects/itad.webp";
 import project17 from "../assets/Projects/pickappo.webp";
 import project18 from "../assets/Projects/mandobk.webp";
 import project19 from "../assets/Projects/Help-Dot.webp";
+import project20 from "../assets/Projects/Dubai_ london_clinics.webp";
 
 const images = {
   profile,
@@ -44,6 +45,7 @@ const images = {
   project17,
   project18,
   project19,
+  project20,
 };
 
 export default images;
