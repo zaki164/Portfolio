@@ -91,7 +91,7 @@ const projects = [
   {
     name: "Dubai london clinics",
     img: images.project20,
-    website: "https://dubai-london-clinics.vercel.app/",
+    website: "https://demo.dubailondonclinics.com/",
   },
   {
     name: "Ncare",
