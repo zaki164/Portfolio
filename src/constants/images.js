@@ -22,6 +22,7 @@ import project18 from "../assets/Projects/mandobk.webp";
 import project19 from "../assets/Projects/Help-Dot.webp";
 import project20 from "../assets/Projects/Dubai_london_clinics.webp";
 import project21 from "../assets/Projects/ncare.webp";
+import project22 from "../assets/Projects/wasseny.webp";
 
 const images = {
   profile,
@@ -48,6 +49,7 @@ const images = {
   project19,
   project20,
   project21,
+  project22,
 };
 
 export default images;
