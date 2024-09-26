@@ -96,7 +96,7 @@ const projects = [
   {
     name: "Dubai london clinics",
     img: images.project20,
-    website: "https://demo.dubailondonclinics.com/",
+    website: "https://dubailondonclinics.com/",
   },
   {
     name: "Ncare",
