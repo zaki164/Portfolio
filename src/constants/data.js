@@ -86,7 +86,7 @@ const projects = [
   {
     name: "Aqaratikom",
     img: images.project23,
-    website: "https://aqaratikom-prototype.vercel.app/",
+    website: "https://aqaratikom.com/",
   },
   {
     name: "Wasseny",
