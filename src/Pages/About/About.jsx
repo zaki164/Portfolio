@@ -42,7 +42,7 @@ const About = () => {
             <Col xs={12} md={6} className="col_info mb-3">
               <p>CV:</p>
               <a
-                href="https://drive.google.com/file/d/1Bfss3EwlAw7Xf4WQwMQoxK6TEuytWf5y/view?usp=sharing"
+                href="https://drive.google.com/file/d/1-7KMzzD6O2b1pI8-ACEgIFfkRYicaydR/view?usp=sharing"
                 className="view custom_button"
                 target="_blank"
                 rel="noreferrer"
