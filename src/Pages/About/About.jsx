@@ -33,7 +33,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>Age:</p>
-              <p className="fontalt mt-1">25</p>
+              <p className="fontalt mt-1">26</p>
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>Country:</p>
