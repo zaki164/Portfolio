@@ -84,12 +84,22 @@ const Skills = [
 
 const projects = [
   {
+    name: "Primocat",
+    img: images.project25,
+    website: "https://pre.primocat.com/",
+  },
+  {
     name: "Aqaratikom",
     img: images.project23,
     website: "https://aqaratikom.com/",
   },
   {
-    name: "Wasseny",
+    name: "Wassny",
+    img: images.project24,
+    website: "https://wassny.com/",
+  },
+  {
+    name: "Wassny Dashboard",
     img: images.project22,
     website: "https://wassny.vercel.app/",
   },
