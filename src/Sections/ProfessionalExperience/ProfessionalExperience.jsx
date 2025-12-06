@@ -15,7 +15,23 @@ const ProfessionalExperience = () => {
       <Container>
         <article className="qual_cont">
           <p>
-            <span>Nov 2023 - present</span>
+            <span>Nov 2024 - Present</span>
+            <FontAwesomeIcon icon={faHandPointRight} />{" "}
+            <span className="Experience_company">5G:</span> working on
+          </p>
+          <div className="qual_cont_info">
+            <p>
+              <FontAwesomeIcon icon={faHandPointRight} />
+              <p>
+                <span className="Experience_company">Nawait</span> (website and
+                Dashboard){" "}
+              </p>
+            </p>
+          </div>
+        </article>
+        <article className="qual_cont mt-4">
+          <p>
+            <span>Nov 2023 - Nov 2024</span>
             <FontAwesomeIcon icon={faHandPointRight} />{" "}
             <span className="Experience_company">ITAD VIP:</span> working on
             many projects like

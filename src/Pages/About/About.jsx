@@ -15,7 +15,7 @@ const About = () => {
       <Container>
         <article className="qual_cont" data-aos={"fade-up"}>
           <p>
-            Hi , I'm a Front-end web developer with <span>2</span>+ years of
+            Hi , I'm a Front-end web developer with <span>3</span>+ years of
             experience in designing and building responsive web apps.
           </p>
           <p>
@@ -33,7 +33,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>Age:</p>
-              <p className="fontalt mt-1">26</p>
+              <p className="fontalt mt-1">27</p>
             </Col>
             <Col xs={12} md={6} className="col_info mb-3">
               <p>Country:</p>
@@ -42,7 +42,8 @@ const About = () => {
             <Col xs={12} md={6} className="col_info mb-3">
               <p>CV:</p>
               <a
-                href="https://drive.google.com/file/d/1moB2jTQU8TBa74vvhP6eqxB9N4m5aaoo/view?usp=sharing"
+                // href="https://drive.google.com/file/d/1moB2jTQU8TBa74vvhP6eqxB9N4m5aaoo/view?usp=sharing"
+                href="https://drive.google.com/file/d/1USDZGBAaCkimmoOkgjqNOxdyaiomZz8v/view?usp=sharing"
                 className="view custom_button"
                 target="_blank"
                 rel="noreferrer"

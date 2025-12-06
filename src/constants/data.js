@@ -84,6 +84,16 @@ const Skills = [
 
 const projects = [
   {
+    name: "Val rate",
+    img: images.project27,
+    website: "https://valrate.com/ar",
+  },
+  {
+    name: "Val rate Dashboard",
+    img: images.project26,
+    website: "https://val-rate.vercel.app/",
+  },
+  {
     name: "Primocat",
     img: images.project25,
     website: "https://pre.primocat.com/",

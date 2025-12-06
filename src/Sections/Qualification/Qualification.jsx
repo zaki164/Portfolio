@@ -17,7 +17,7 @@ const Qualification = () => {
       <Container>
         <article className="qual_cont">
           <p>
-            Hi , I'm a Front-end web developer with <span>2</span>+ years of
+            Hi , I'm a Front-end web developer with <span>3</span>+ years of
             experience in designing and building responsive web apps.
           </p>
           <p>
