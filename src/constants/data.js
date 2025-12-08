@@ -96,12 +96,12 @@ const projects = [
   {
     name: "Primocat",
     img: images.project25,
-    website: "https://pre.primocat.com/",
+    website: "https://primocat.com/",
   },
   {
-    name: "Aqaratikom",
+    name: "Nawait",
     img: images.project23,
-    website: "https://aqaratikom.com/",
+    website: "https://nawait.sa/",
   },
   {
     name: "Wassny",
