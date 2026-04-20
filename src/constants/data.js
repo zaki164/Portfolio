@@ -84,6 +84,16 @@ const Skills = [
 
 const projects = [
   {
+    name: "Wady Altaqniaa",
+    img: images.project29,
+    website: "https://waditech.sa/ar",
+  },
+  {
+    name: "AZ",
+    img: images.project28,
+    website: "https://azv.sa/ar",
+  },
+  {
     name: "Val rate",
     img: images.project27,
     website: "https://valrate.com/ar",

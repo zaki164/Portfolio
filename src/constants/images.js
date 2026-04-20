@@ -28,6 +28,8 @@ import project24 from "../assets/Projects/WassnyWebsite.webp";
 import project25 from "../assets/Projects/Primocat.webp";
 import project26 from "../assets/Projects/dashboard-val-rate.webp";
 import project27 from "../assets/Projects/website-val-rate.webp";
+import project28 from "../assets/Projects/az.webp";
+import project29 from "../assets/Projects/wadyaltaqniaa.webp";
 
 const images = {
   profile,
@@ -60,6 +62,8 @@ const images = {
   project25,
   project26,
   project27,
+  project28,
+  project29,
 };
 
 export default images;
